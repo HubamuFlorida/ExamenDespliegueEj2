@@ -1,7 +1,7 @@
 services:
   db:
     image: hubamu/mi_cine:v1
-    container_name:
+    container_name: contenedorDb
     ports:
       - "3306:3306"
     networks:
