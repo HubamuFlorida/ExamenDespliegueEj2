@@ -21,8 +21,8 @@ jobs:
       - name: Build and push DB Docker image
         run: |
           cd mysql
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/mi_cine:v1 .
-          docker push ${{ secrets.DOCKER_USERNAME }}/mi_cine:v1
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/phppinacoteca:v1 .
+          docker push ${{ secrets.DOCKER_USERNAME }}/phppinacoteca:v1
 
       - name: Build and push PHP Docker image
         run: |
